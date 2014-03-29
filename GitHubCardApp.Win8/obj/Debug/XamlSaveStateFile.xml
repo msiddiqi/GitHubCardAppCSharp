@@ -1,0 +1,11 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\muhammad\documents\visual studio 2012\projects\githubcardapp\githubcardapp.win8\obj\debug\intermediatexaml\githubcardapp.win8.exe" HashGuid="1af3bf2d-3e33-a738-4506-f3e1e675a02a" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactions.dll" HashGuid="95a94f94-3917-d473-4f7c-18c4bd437046" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windows\v8.1\extensionsdks\behaviorsxamlsdkmanaged\12.0\references\commonconfiguration\neutral\microsoft.xaml.interactivity.dll" HashGuid="d25f59e6-dd81-900a-0dfc-55b39f6898ef" />
+    <ReferenceAssembly PathName="c:\users\muhammad\documents\visual studio 2012\projects\githubcardapp\packages\automapper.3.1.1\lib\windows8\automapper.dll" HashGuid="9f3dd172-d804-37d6-4b6b-91150f5470bd" />
+    <ReferenceAssembly PathName="c:\users\muhammad\documents\visual studio 2012\projects\githubcardapp\packages\automapper.3.1.1\lib\windows8\automapper.winrt.dll" HashGuid="3b168946-eb64-d7a7-a1dc-997a3f9549b2" />
+    <ReferenceAssembly PathName="c:\users\muhammad\documents\visual studio 2012\projects\githubcardapp\packages\prism.storeapps.1.1.0\lib\windows8\microsoft.practices.prism.storeapps.dll" HashGuid="3e349b71-06d3-5719-a9da-de88cf822a9c" />
+    <ReferenceAssembly PathName="c:\users\muhammad\documents\visual studio 2012\projects\githubcardapp\packages\octokit.0.3.0\lib\netcore45\octokit.dll" HashGuid="549094a0-b717-b925-8471-6a69a4b2d5cf" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>

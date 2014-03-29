@@ -1,0 +1,73 @@
+﻿<Page
+    x:Class="GitHubCardApp.Win8.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GitHubCardApp.Win8"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:core="using:Microsoft.Xaml.Interactions.Core"
+    xmlns:interactivity="using:Microsoft.Xaml.Interactivity"
+    mc:Ignorable="d">
+    <Page.DataContext>
+        <local:GitHubCardViewModel />
+    </Page.DataContext>
+    <!--Page.Triggers>
+        <EventTrigger RoutedEvent=""></EventTrigger>
+    </Page.Triggers>
+    -->
+    <!--<interactivity:Interaction.Behaviors>
+        <core:EventTriggerBehavior EventName="ItemClick">
+            <core:InvokeCommandAction Command="{Binding PhotoNavigationCommand}"
+                                      CommandParameter="{Binding Path=SelectedItem}"/>
+        </core:EventTriggerBehavior>
+    </interactivity:Interaction.Behaviors>-->
+    <Grid Background="White" ><!--Background="{StaticResource ApplicationPageBackgroundThemeBrush}"-->
+        <Grid.RowDefinitions>
+            <RowDefinition Height="0.3*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Margin="5" Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Image Source="{Binding AvatarUrl}" Grid.Column="0" />
+            <TextBlock Grid.Column="1" Text="{Binding Name}" 
+                       HorizontalAlignment="Left"
+                       Margin="10,0"
+                       FontSize="80"
+                       TextTrimming="WordEllipsis"
+                       TextWrapping="NoWrap"
+                       FontStretch="UltraExpanded"/>
+        </Grid>
+        <Grid Grid.Row="1" HorizontalAlignment="Left">
+            <!--<Grid.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="TextAlignment" Value="Left" />
+                    <Setter Property="Margin" Value="10" />
+                </Style>
+            </Grid.Resources>-->
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+                <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0">
+                <Run Text="Member Since: " />
+                <Run Text="{Binding JoinDate, Mode=OneWay}" />
+            </TextBlock>
+            <TextBlock Grid.Row="1">
+                <Run Text="5000" />
+                <Run Text=" Total Commits"></Run>
+            </TextBlock>
+            <TextBlock Grid.Row="2">
+                <Run Text="{Binding NumFollowers, Mode=OneWay}" />
+                <Run Text="Followers" />
+            </TextBlock>
+            <TextBlock Grid.Row="3" Text="{Binding BlogAddress}"/>
+        </Grid>
+        <Border Grid.Row="1" />
+    </Grid>
+</Page>
+

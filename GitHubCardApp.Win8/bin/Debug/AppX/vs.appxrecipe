@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MYPC</Machine>
+    <WindowsUser>Muhammad</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>62890720-3b90-4d3d-9534-416a653c3465</PackageIdentityName>
+    <RegisteredManifestChecksum>B43F12DC6F6705F4AB2E813A1F079E4EB948A91D19E3FF1A3FFAC44366117EA1</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>62890720-3b90-4d3d-9534-416a653c3465_1.1.0.0_neutral__3xsta1dj00k6y</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>62890720-3b90-4d3d-9534-416a653c3465_3xsta1dj00k6y!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>62890720-3b90-4d3d-9534-416a653c3465</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Muhammad</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-03-29T21:44:32.699</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\bin\Debug\GitHubCardApp.Win8.exe">
+      <PackagePath>GitHubCardApp.Win8.exe</PackagePath>
+      <Modified>2014-03-29T22:11:40.437</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactions.dll">
+      <PackagePath>Microsoft.Xaml.Interactions.dll</PackagePath>
+      <Modified>2013-10-02T16:08:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\BehaviorsXamlSDKManaged\12.0\References\CommonConfiguration\Neutral\Microsoft.Xaml.Interactivity.dll">
+      <PackagePath>Microsoft.Xaml.Interactivity.dll</PackagePath>
+      <Modified>2013-10-02T16:08:44.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\packages\AutoMapper.3.1.1\lib\windows8\AutoMapper.dll">
+      <PackagePath>AutoMapper.dll</PackagePath>
+      <Modified>2014-03-21T02:16:00.890</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\packages\AutoMapper.3.1.1\lib\windows8\AutoMapper.WinRT.dll">
+      <PackagePath>AutoMapper.WinRT.dll</PackagePath>
+      <Modified>2014-03-21T02:16:00.892</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\packages\Prism.StoreApps.1.1.0\lib\windows8\Microsoft.Practices.Prism.StoreApps.dll">
+      <PackagePath>Microsoft.Practices.Prism.StoreApps.dll</PackagePath>
+      <Modified>2014-03-29T17:51:51.259</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\packages\Octokit.0.3.0\lib\netcore45\Octokit.dll">
+      <PackagePath>Octokit.dll</PackagePath>
+      <Modified>2014-03-21T02:02:12.999</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-16T01:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-03-29T17:42:08.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2014-03-29T17:42:08.448</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-03-29T21:46:30.225</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Muhammad\Documents\Visual Studio 2012\Projects\GitHubCardApp\GitHubCardApp.Win8\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-03-29T21:44:32.460</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
